@@ -27,6 +27,11 @@ In case you need to login:
 
     docker run -it jecnua/apache-exporter /bin/bash
 
+## More links
+
+I made this docker image because I didn't find one. There is this [repo](https://github.com/garyritchie/apache_exporter)
+but he is creating an image by cloning the original repo and isn't up to date.
+
 ## TODO
 
 - Add labels
