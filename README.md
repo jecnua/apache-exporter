@@ -14,6 +14,16 @@ This is a test :)
 
     docker build .
 
+    docker build -t jecnua/apache-exporter .
+
+## Login
+
+    docker run -it jecnua/apache-exporter /bin/bash
+
 ##
 
 https://hub.docker.com/_/golang/
+
+## TODO
+
+- Add labels
