@@ -36,3 +36,4 @@ but he is creating an image by cloning the original repo and isn't up to date.
 
 - Add labels
 - Fix version to pull with go get (param?)
+- Add to dockerhub
