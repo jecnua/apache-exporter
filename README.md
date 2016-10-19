@@ -1,29 +1,33 @@
 # Apache exporter for Prometheus
 
-Using https://github.com/neezgee/apache_exporter found on
-https://prometheus.io/docs/instrumenting/exporters/
+Using the default [apache exporter](https://github.com/neezgee/apache_exporter) found on the [Prometheus doc](https://prometheus.io/docs/instrumenting/exporters/) page.
 
-This tutorial explain how to install it without docker:
-https://machineperson.github.io/monitoring/2016/01/04/exporting-apache-metrics-to-prometheus.html
+There is a [tutorial](https://machineperson.github.io/monitoring/2016/01/04/exporting-apache-metrics-to-prometheus.html) that explains how to install it without docker.
 
 ## Disclaimer
 
 This is a test :)
+I am no expert on docker nor go. ^^/
 
-## Build
+## Build the image
+
+To build:
 
     docker build .
 
+To have the image locally:
+
     docker build -t jecnua/apache-exporter .
+
+Build on [go alpine](https://hub.docker.com/_/golang/).
 
 ## Login
 
+In case you need to login:
+
     docker run -it jecnua/apache-exporter /bin/bash
-
-##
-
-https://hub.docker.com/_/golang/
 
 ## TODO
 
 - Add labels
+- Fix version to pull with go get (param?)
