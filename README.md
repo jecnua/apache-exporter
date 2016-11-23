@@ -32,6 +32,10 @@ In case you need to login:
 I made this docker image because I didn't find one. There is this [repo](https://github.com/garyritchie/apache_exporter)
 but he is creating an image by cloning the original repo and isn't up to date.
 
+## Contact me
+
+For any questions send me an email at fabrizio.sabatini.it@gmail.com
+
 ## TODO
 
 - Add labels
